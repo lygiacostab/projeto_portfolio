@@ -1,0 +1,4 @@
+.message { margin: 0; padding: 0.75rem 1rem; border-radius: var(--radius-sm); }
+.info { color: var(--color-muted); }
+.error { color: var(--color-error); background: var(--color-error-bg); }
+.success { color: var(--color-success); background: var(--color-success-bg); }

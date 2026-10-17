@@ -1,0 +1,5 @@
+.item { display: flex; gap: 0.9rem; }
+.icon { flex-shrink: 0; margin-top: 0.1rem; color: var(--color-icon); }
+.label { display: block; margin-bottom: 0.15rem; color: var(--color-heading); }
+.line { display: block; color: var(--color-muted); font-size: 0.95rem; text-decoration: none; overflow-wrap: anywhere; }
+a.line:hover { color: var(--color-primary); }

@@ -1,0 +1,8 @@
+.card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface); box-shadow: var(--shadow-card); }
+.image { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: 15% center; }
+.body { display: flex; flex: 1; flex-direction: column; gap: 0.5rem; padding: 1.1rem 1.25rem 1.25rem; }
+.title { margin: 0; font-size: 1rem; color: var(--color-heading); }
+.description { margin: 0; flex: 1; color: var(--color-muted); font-size: 0.95rem; line-height: 1.5; }
+.date { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem; color: var(--color-muted); font-size: 0.85rem; }
+.imageButton { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; }
+.imageButton:hover .image { filter: brightness(0.9); }
